@@ -35,6 +35,14 @@ const INFO = {
 
 	projects: [
 		{
+			title: "jvPorfolio",
+			description:
+				"This is my portfolio website, where I display my projects, share my work, and connect with others. It includes details about my experience, skills, and social media links.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://github.com/jvb2820/jvPortfolio",
+		},
+		{
 			title: "Lifewood Project Web",
 			description:
 				"This web is just for presentation and is a sleek and responsive web platform designed to showcase Lifewood’s services, values, and mission. Built with a modern front-end and a basic backend, the site delivers an engaging user experience while maintaining simplicity and efficiency. The front-end ensures a visually appealing layout, while the backend supports essential content management and basic functionalities. This website serves as an informative hub for visitors to learn more about Lifewood in a structured and professional manner.",
