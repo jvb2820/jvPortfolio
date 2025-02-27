@@ -26,7 +26,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2025@JVB. All Rights Reserve.
+						© 2025@JVB. All Rights Reserved.
 					</div>
 				</div>
 			</div>
