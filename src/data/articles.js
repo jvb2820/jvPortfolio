@@ -27,29 +27,39 @@ function article_1() {
 					outline: 2px solid blue;
 				}
 				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">
-						I have always been fascinated by technology and artificial intelligence, which led me to pursue 
-						a Bachelor of Science in Information Technology. My journey in IT began with hands-on experience in customer support. 
-						I started as a Technical Advisor at Concentrix (Comcast West 3P), where I worked for over a year, troubleshooting 
-						and resolving technical issues while assisting customers. Seeking to expand my skill set, I then 
-						took on a sales and customer service role at Amazon, where I learned to navigate various tools and 
-						handle customer interactions effectively.  
-
-						Driven by my passion for technology, I transitioned into the field of development. Now, as an IT intern at 
-						Lifewood Data Technology, I am honing my skills in data processing, web development, and text and object 
-						data collection, laying the foundations for a career in IT solutions and software development.
-					</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
+				body: (
+					<React.Fragment>
+						<div className="article-content">
+							<div className="paragraph">
+								I have always been fascinated by technology and artificial intelligence, which led me to pursue 
+								a Bachelor of Science in Information Technology. My journey in IT began with hands-on experience in customer support. 
+								I started as a Technical Advisor at Concentrix (Comcast West 3P), where I worked for over a year, troubleshooting 
+								and resolving technical issues while assisting customers. Seeking to expand my skill set, I then 
+								took on a sales and customer service role at Amazon, where I learned to navigate various tools and 
+								handle customer interactions effectively.  
+				
+								Driven by my passion for technology, I transitioned into the field of development. Now, as an IT intern at 
+								Lifewood Data Technology, I am honing my skills in data processing, web development, and text and object 
+								data collection, laying the foundations for a career in IT solutions and software development.
+							</div>
+							
+							<img 
+							src="/a2.png" 
+							alt="a2" 
+							className="randImage"
+							style={{
+								width: "500px",  // Increase width for a landscape feel
+								height: "350px",  // Reduce height to maintain landscape proportions
+								objectFit: "cover",  // Ensures the image fills the area properly
+								marginTop: "30px",  // Adds small top margin
+								outline: "2px grey",  // Keeps the blue outline
+								alignSelf: "center"  // Centers the image
+							}}
+						/>
+						</div>
+					</React.Fragment>
+				),
+				
 	};
 }
 
@@ -74,6 +84,18 @@ function article_2() {
 			"AI Automation",
 			"Data Processing",
 		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid blue;
+				}
+				`,
 		body: (
 			<React.Fragment>
 				<div className="article-content">
@@ -107,7 +129,22 @@ function article_2() {
 						and automation to further enhance my capabilities. Every project, every challenge, and every new tool I explore adds to my 
 						growth as a developer and IT professional.
 					</p>
+					<img 
+							src="/a1.png" 
+							alt="a1" 
+							className="randImage2"
+							style={{
+								width: "500px",  // Increase width for a landscape feel
+								height: "350px",  // Reduce height to maintain landscape proportions
+								objectFit: "cover",  // Ensures the image fills the area properly
+								marginTop: "30px",  // Adds small top margin
+								outline: "2px grey",  // Keeps the blue outline
+								alignSelf: "center"  // Centers the image
+							}}
+						/>
 				</div>
+
+				
 			</React.Fragment>
 		),
 	};
