@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "IT Solutions & Development, Web Development, ServiceNow & Salesforce Administration, Data Management & Processing, Technical Support & Troubleshooting",
 		description:
-			"I am an aspiring IT professional with experience in web development, system troubleshooting, and technical solutions. I have worked with React, Java (Spring Boot), MySQL, and Workbench to build efficient, scalable, and user-friendly applications while following best practices and modern development standards. Additionally, I have experience in ServiceNow and Salesforce, working with automation, scripting, and database management. Beyond development, I am skilled in IT support, system maintenance, and optimizing workflows to improve efficiency. I enjoy solving complex problems, learning new technologies, and continuously growing in the ever-evolving field of IT.",
+			"I am an aspiring IT professional with experience in web development, system troubleshooting, technical solutions, and data processing. I have worked with Python, Java, React, Java (Spring Boot), MySQL, and Workbench to build efficient, scalable, and user-friendly applications while following best practices and modern development standards. Additionally, I have experience in ServiceNow and Salesforce, working with automation, scripting, and database management. Beyond development, I am skilled in IT support, system maintenance, and optimizing workflows to improve efficiency. I enjoy solving complex problems, learning new technologies, and continuously growing in the ever-evolving field of IT.",
 	},
 
 	about: {
