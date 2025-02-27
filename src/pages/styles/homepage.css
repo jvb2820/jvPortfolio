@@ -144,3 +144,25 @@
 		margin-right: -25px;
 	}
 }
+
+.resume-container {
+    display: flex;
+    
+    margin-top: 20px;
+}
+
+.resume-button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: grey;
+}
+

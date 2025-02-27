@@ -160,6 +160,15 @@ const Homepage = () => {
 								<Works />
 							</div>
 						</div>
+						<div className="resume-container">
+        <a 
+            href="https://drive.google.com/file/d/13836HO0bU-GVvlmLYkNpLeVw3GW08zH3/view?usp=sharing"
+            target="_blank" 
+            rel="noopener noreferrer"
+        >
+            <button className="resume-button">View Resume</button>
+        </a>
+    </div>
 
 						<div className="page-footer">
 							<Footer />
