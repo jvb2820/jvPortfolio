@@ -47,7 +47,7 @@ const Projects = () => {
 						I've always been passionate about technology and problem-solving, 
 						which has driven me to continuously learn and improve my skills. 
 						Over the years, I've gained experience in various areas of IT, 
-						from web development to data processing. 
+						from web development, IT solutions to data processing. 
 						I enjoy taking on new challenges and refining my craft,
 						 always looking for ways to innovate and optimize solutions.
 						</div>
