@@ -5,6 +5,8 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
+import Article from "../components/articles/article"; // Import Article component
+import myArticles from "../data/articles"; // Import myArticles
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -23,10 +25,7 @@ const About = () => {
 			<Helmet>
 				<title>{`About | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
+				<meta name="keywords" content={currentSEO.keywords.join(", ")} />
 			</Helmet>
 
 			<div className="page-content">
@@ -66,10 +65,28 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-						<div className="about-socials-mobile">
-							<Socials />
+
+						{/* Articles Section Container */}
+						<div className="about-articles-container">
+							<div className="about-articles">
+								<h2>My Articles</h2>
+								<div className="articles-list">
+									{myArticles.map((article, index) => (
+										<div key={(index + 1).toString()} className="about-article">
+											<Article
+												key={(index + 1).toString()}
+												date={article().date}
+												title={article().title}
+												description={article().description}
+												link={"/article/" + (index + 1)}
+											/>
+										</div>
+									))}
+								</div>
+							</div>
 						</div>
 					</div>
+
 					<div className="page-footer">
 						<Footer />
 					</div>

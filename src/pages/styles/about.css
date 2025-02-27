@@ -115,3 +115,16 @@
 		width: 80%;
 	}
 }
+
+.about-articles-container {
+    margin-top: 30px; /* Pushes the articles further down */
+    padding: 40px 20px;
+    background-color: #f8f8f8; /* Light background for contrast */
+    border-radius: 10px;
+}
+
+.articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
