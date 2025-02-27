@@ -47,12 +47,27 @@ const Contact = () => {
 						Feel free to connect with me through the following platforms. I’m always open to networking, collaborations, or any inquiries. Don’t hesitate to reach out!
 					
 						</div>
+						<img 
+							src="/c1.png" 
+							alt="c1" 
+							className="randImage3"
+							style={{
+								width: "800px",  // Increase width for a landscape feel
+								height: "450px",  // Reduce height to maintain landscape proportions
+								objectFit: "cover",  // Ensures the image fills the area properly
+								marginTop: "30px",  // Adds small top margin
+								outline: "2px grey",  // Keeps the blue outline
+								alignSelf: "center"  // Centers the image
+							}}
+						/>
 					</div>
 
 					<div className="socials-container">
 						<div className="contact-socials">
 							<Socials />
 						</div>
+
+						
 					</div>
 
 					<div className="page-footer">
