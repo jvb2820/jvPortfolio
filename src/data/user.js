@@ -61,7 +61,7 @@ const INFO = {
 		{
 			title: "Parking System",
 			description:
-				"Qwarta is a Python-based payment processing system designed to handle transactions efficiently and securely. Built for flexibility, it aims to streamline digital payments, making it easier to integrate payment functionalities into various applications.",
+				"this app is a web-based application designed to streamline the process of parking sticker registration, purchase, and payment for students within a school or university. The system aims to eliminate long queues, manual paperwork, and inefficiencies by providing a hassle-free, digital solution for both students and administrators.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/Zeldwyn/ParkingSystem",
