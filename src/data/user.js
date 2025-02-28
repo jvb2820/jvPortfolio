@@ -59,6 +59,14 @@ const INFO = {
 			link: "https://github.com/NinoBacaoco/Capstone1",
 		},
 		{
+			title: "CVision",
+			description:
+				"CVIision is a Real-Time Object Detection App is a computer vision application that utilizes a deep learning model to detect and classify objects in real time using a live camera feed. It leverages OpenCV's DNN module with the MobileNet SSD model to provide accurate object recognition.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://github.com/jvb2820/CVision/tree/main",
+		},
+		{
 			title: "Parking System",
 			description:
 				"this app is a web-based application designed to streamline the process of parking sticker registration, purchase, and payment for students within a school or university. The system aims to eliminate long queues, manual paperwork, and inefficiencies by providing a hassle-free, digital solution for both students and administrators.",
