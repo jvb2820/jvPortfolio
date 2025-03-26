@@ -63,8 +63,6 @@ function article_1() {
 	};
 }
 
-
-
 function article_2() {
 	return {
 		date: "Growth",
@@ -143,13 +141,113 @@ function article_2() {
 							}}
 						/>
 				</div>
-
-				
 			</React.Fragment>
 		),
 	};
 }
 
-const myArticles = [article_1, article_2];
+function article_3() {
+	return {
+		date: "Continuous Learning",
+		title: "Mastering Technology: A Comprehensive Approach to IT and Development",
+		description:
+			"An in-depth exploration of my technical skills, programming languages, and professional capabilities in IT and software development.",
+		keywords: [
+			"Programming Skills",
+			"Jeuz Vinci Bas",
+			"Web Development",
+			"Technical Proficiency",
+			"Software Engineering",
+			"Database Management",
+			"Cloud Technologies",
+			"Project Management"
+		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid blue;
+				}
+				`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<p>
+						My journey in technology is defined by a comprehensive approach to learning and applying diverse technical skills. 
+						As a budding IT professional, I've developed a robust skill set that spans multiple domains of software development 
+						and information technology.
+					</p>
+
+					<h2>Technical Proficiencies</h2>
+					<ul>
+						<li>
+							<strong>Programming Languages:</strong> Proficient in C, Java, Python, PHP, and JavaScript, 
+							with a strong foundation in object-oriented and web programming concepts.
+						</li>
+						<li>
+							<strong>Web Technologies:</strong> Expertise in HTML, CSS, and advanced frameworks like React, 
+							complemented by back-end development skills using Spring Boot.
+						</li>
+						<li>
+							<strong>Database Management:</strong> Experienced in database technologies, including MySQL and 
+							database design principles.
+						</li>
+						<li>
+							<strong>Cloud and Enterprise Tools:</strong> Certified in Salesforce administration and familiar 
+							with ServiceNow scripting, demonstrating versatility in enterprise technology solutions.
+						</li>
+					</ul>
+
+					<h2>Professional Capabilities</h2>
+					<p>
+						Beyond technical skills, I bring a holistic approach to IT solutions. My experience spans technical support, 
+						customer service, and software development, allowing me to understand technology from multiple perspectives. 
+						Whether troubleshooting complex issues or developing innovative solutions, I approach each challenge with 
+						methodical precision and creative problem-solving.
+					</p>
+
+					<h2>Continuous Growth</h2>
+					<p>
+						My commitment to professional development is evident in my ongoing learning journey. From hands-on internships 
+						to self-directed learning, I continuously expand my technological toolkit. Each project and experience 
+						adds depth to my understanding of how technology can solve real-world challenges.
+					</p>
+
+					<ul>
+						<li>
+							<strong>Key Strengths:</strong> Adaptability, quick learning, technical problem-solving, 
+							and a passion for innovative technological solutions.
+						</li>
+						<li>
+							<strong>Future Focus:</strong> Continuously exploring emerging technologies, cloud computing, 
+							and advanced software development methodologies.
+						</li>
+					</ul>
+
+					<img 
+						src="/a3.png" 
+						alt="Technology Skills Visualization" 
+						className="randImage"
+						style={{
+							width: "500px",
+							height: "350px",
+							objectFit: "cover",
+							marginTop: "30px",
+							outline: "2px grey",
+							alignSelf: "center"
+						}}
+					/>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+const myArticles = [article_1, article_2, article_3];
 
 export default myArticles;
