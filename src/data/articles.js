@@ -230,7 +230,7 @@ function article_3() {
 					</ul>
 
 					<img 
-						src="/a3.png" 
+						src="/a3.jpeg" 
 						alt="Technology Skills Visualization" 
 						className="randImage"
 						style={{
