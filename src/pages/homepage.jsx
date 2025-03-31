@@ -162,7 +162,7 @@ const Homepage = () => {
 						</div>
 						<div className="resume-container">
         <a 
-            href="https://drive.google.com/file/d/16Onvm5BRQfGa5fHwEUZw-KGqp082Uaa8/view?usp=sharing"
+            href="https://drive.google.com/file/d/1mAQCefeRvNvWPZsDSNdZTCGBHQlwy0rB/view?usp=sharing"
             target="_blank" 
             rel="noopener noreferrer"
         >
