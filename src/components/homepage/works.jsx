@@ -21,6 +21,18 @@ const Works = () => {
 							/>
 							<div className="work-title">Lifewood Data Technology</div>
 							<div className="work-subtitle">
+								AIE/PM
+							</div>
+							<div className="work-duration">Jan 2025 - Apr 2025</div>
+						</div>
+						<div className="work">
+							<img
+								src="/lifewood.svg"
+								alt="lifewood"
+								className="work-image"
+							/>
+							<div className="work-title">Lifewood Data Technology</div>
+							<div className="work-subtitle">
 								Intern
 							</div>
 							<div className="work-duration">Jan 2025 - Apr 2025</div>
