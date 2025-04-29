@@ -23,7 +23,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								AIE/PM
 							</div>
-							<div className="work-duration">Apr 2025 - Present</div>
+							<div className="work-duration">Apr 2025-Present</div>
 						</div>
 						<div className="work">
 							<img
