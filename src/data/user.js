@@ -35,7 +35,15 @@ const INFO = {
 
 	projects: [
 		{
-			title: "jvPorfolio",
+			title: "chatJVB",
+			description:
+				"ChatJVB is a powerful Streamlit-based chatbot application designed to provide intuitive document Q&A capabilities alongside general conversational abilities. This project features a modern interface with PDF processing functionality to enable context-aware responses while maintaining an engaging user experience.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://github.com/jvb2820/chatJVB",
+		},
+		{
+			title: "jvPortfolio",
 			description:
 				"This is my portfolio website, where I display my projects, share my work, and connect with others. It includes details about my experience, skills, and social media links.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
