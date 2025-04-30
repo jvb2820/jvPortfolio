@@ -1,14 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	
 	faGithub,
 	faFacebook,
-	
-	
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -17,7 +13,6 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
-
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -57,6 +52,21 @@ const Homepage = () => {
 		window.addEventListener("scroll", handleScroll);
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
+
+	// Sample deployed sites - you can replace these with your actual deployed sites
+	const deployedSites = [
+		{
+			title: "ChatJVB",
+			description: "An AI assistant tool with a pdf converter.",
+			link: "https://chatjvb.streamlit.app/",
+		},
+		{
+			title: "JVfolio",
+			description: "My portfolio Website.",
+			link: "https://jeuzvinci.vercel.app/",
+		},
+		
+	];
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
@@ -111,12 +121,29 @@ const Homepage = () => {
 											className="homepage-image"
 										/>
 									</div>
+									
+									{/* Deployed Sites Section - Added right below the image */}
+									<div className="deployed-sites-compact">
+										<h3>Deployed Sites</h3>
+										<div className="deployed-sites-links">
+											{deployedSites.map((site, index) => (
+												<a 
+													key={index}
+													href={site.link} 
+													target="_blank" 
+													rel="noopener noreferrer" 
+													className="compact-site-link"
+												>
+													{site.title}
+												</a>
+											))}
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 
 						<div className="homepage-socials">
-							
 							<a
 								href={INFO.socials.github}
 								target="_blank"
@@ -149,26 +176,23 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							
-	
 						</div>
-
-						
 
 						<div className="homepage-after-title">
 							<div className="homepage-works">
 								<Works />
 							</div>
 						</div>
+						
 						<div className="resume-container">
-        <a 
-            href="https://drive.google.com/file/d/1mAQCefeRvNvWPZsDSNdZTCGBHQlwy0rB/view?usp=sharing"
-            target="_blank" 
-            rel="noopener noreferrer"
-        >
-            <button className="resume-button">View Resume</button>
-        </a>
-    </div>
+							<a 
+								href="https://drive.google.com/file/d/1mAQCefeRvNvWPZsDSNdZTCGBHQlwy0rB/view?usp=sharing"
+								target="_blank" 
+								rel="noopener noreferrer"
+							>
+								<button className="resume-button">View Resume</button>
+							</a>
+						</div>
 
 						<div className="page-footer">
 							<Footer />
