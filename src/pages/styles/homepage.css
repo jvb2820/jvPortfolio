@@ -33,9 +33,16 @@
 }
 
 .homepage-image-container {
-	width: 370px;
-	height: 370px;
-}
+	/* … */
+	margin: 0 auto 1.5rem;    /* ↓ shrink this */
+  }
+  
+  .deployed-sites-compact {
+	/* … */
+	margin: 0;                /* you’d reset it here, then add a small top margin if needed */
+	/* margin-top: 0.5rem; */ /* ← uncomment to add just a little breathing room */
+  }
+  
 
 .homepage-image-wrapper {
 	overflow: hidden;
@@ -104,7 +111,7 @@
 
 	.homepage-title {
 		width: 100% !important;
-		margin-top: 20px;
+		margin-top: 0px;
 		order: 2;
 	}
 
@@ -169,7 +176,7 @@
 /* Deployed Sites Section Styling */
 .deployed-sites-compact {
     width: 100%;
-    margin-top: 7rem;
+    margin-top: 1rem;
     padding: 0.5rem;
     text-align: center;
 }
@@ -211,18 +218,40 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .deployed-sites-compact {
-        padding: 0.5rem 0;
-    }
-    
-    .deployed-sites-links {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .compact-site-link {
-        width: auto;
-        min-width: 100px;
-    }
-}
+	.homepage-image-container {
+	  width: 100%;
+	  height: auto !important;
+	  padding: 0;
+	  /* shrink from 1.5rem down to 1rem (or even 0.75rem) */
+	  margin: 0 auto 1rem;
+	  box-sizing: border-box;
+	}
+  
+	.deployed-sites-compact {
+	  display: block;
+	  width: 100%;
+	  /* remove any big gap above the buttons */
+	  margin: 0;
+	  /* if you still want a tiny gap, use something like 0.5rem instead:
+		 margin-top: 0.5rem; */
+	  padding: 0 1rem;
+	}
+  
+	.deployed-sites-links {
+	  display: grid;
+	  grid-template-columns: repeat(2, 1fr);
+	  gap: 0.75rem;
+	}
+  
+	.compact-site-link {
+	  display: block;
+	  width: 100%;
+	  text-align: center;
+	  padding: 0.5rem 0;
+	  max-width: none;
+	}
+  }
+  
+  
+  
+  
